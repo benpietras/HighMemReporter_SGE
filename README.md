@@ -1,9 +1,7 @@
 B. Pietras, UoM Research IT.
 
-These scripts are intended to run on a HPC batch system managed by SGE,
-which has various high memory nodes. Access to the respective nodes is  
-controlled by usersets. Each job array task is counted as a job.
-You will need to edit to provide your HPC usersets and node specifications.
+These scripts are intended to run on a HPC batch system managed by SGE, which has various high memory nodes. Access to the respective nodes is  
+controlled by usersets. Each job array task is counted as a job. You will need to edit to provide your HPC usersets and node specifications.
 
 --highmem_reporter.sh--
 
