@@ -10,19 +10,21 @@ You will need to edit to provide your HPC usersets and node specifications.
 This provides a list of jobs that ran over the last X days (set in script)
 ordered by user. The output is like below for the default of 7 days:
 
-user1, last 7 days vbigmem:
-jobno    node     maxvmem    slots  mem_perc  recommended
-4425613  mem2000  1.185TB    32     0.037TB   mem1500
-4426545  mem2000  6.134GB    32     0.191GB   standard
-4426682  mem2000  5.276GB    32     0.164GB   standard
-4425619  mem1500  440.970GB  32     13.780GB  mem256
----------------------------------------------------------------------
-user2, last 7 days vbigmem:
-jobno    node     maxvmem    slots  mem_perc  recommended
-4421110  mem2000  249.911GB  10     24.991GB  mem512
-4425262  mem2000  1.021GB    24     0.042GB   standard
-[etc]
+user1, last 7 days vbigmem:  
+jobno    node     maxvmem    slots  mem_perc  recommended  
+4425613  mem2000  1.185TB    32     0.037TB   mem1500  
+4426545  mem2000  6.134GB    32     0.191GB   standard  
+4426682  mem2000  5.276GB    32     0.164GB   standard  
+4425619  mem1500  440.970GB  32     13.780GB  mem256  
+
+user2, last 7 days vbigmem:  
+jobno    node     maxvmem    slots  mem_perc  recommended  
+4421110  mem2000  249.911GB  10     24.991GB  mem512  
+4425262  mem2000  1.021GB    24     0.042GB   standard  
+[etc]  
+
 --highmem_analysis.sh--
+
 This takes the output of highmem_reporter.sh and provides an overview,
 listed by worst offender.
 
@@ -38,7 +40,6 @@ attached as a zip.
 
 A wrapper script to run both scripts, can be used with cron:
 
-# Highmem node misuse (weekly, Monday morning) 
 00 06 * * MON /PATH/highmem_rep.sh 2>&1
 
 ---
