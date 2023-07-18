@@ -1,7 +1,7 @@
 B. Pietras, UoM Research IT.
 
 These scripts are intended to run on a HPC batch system managed by SGE,
-which has various high memory nodes. Access to the respective nodes is 
+which has various high memory nodes. Access to the respective nodes is  
 controlled by usersets. Each job array task is counted as a job.
 You will need to edit to provide your HPC usersets and node specifications.
 
@@ -46,7 +46,7 @@ A wrapper script to run both scripts, can be used with cron:
 
 Notes
 
-Hopefully this script is adaptable enough to be of use on other HPC systems.
+Hopefully this script is adaptable enough to be of use on other HPC systems.  
 Any questions / suggestions - let me know: ben.pietras@manchester.ac.uk
 
 Cheers!
