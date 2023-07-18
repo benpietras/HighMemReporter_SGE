@@ -105,8 +105,6 @@ SGE_SINGLE_LINE=1 qconf -su mem4000.userset | awk '/^entries/ {print $2}' | tr ,
 cat $tempo1024 $tempo1500 $tempo2000 $tempo4000 | sort -u > $tempoC
 mapfile -t UsersArray < $tempoC
 
-# ---
-
 len=${#UsersArray[@]}
 for (( i=0; i<$len; i++ )); do 
 qacction ${UsersArray[$i]};
