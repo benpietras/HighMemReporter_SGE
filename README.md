@@ -28,10 +28,10 @@ jobno    node     maxvmem    slots  mem_perc  recommended
 This takes the output of highmem_reporter.sh and provides an overview,
 listed by worst offender.
 
-username  group     email                    jobno
-user5    hum01     user5@manchester.ac.uk   5537
-user8     pb01      user8@manchester.ac.uk   733
-user22    chem01    user22@manchester.ac.uk  59
+username  group     email                    jobno  
+user5     hum01     user5@manchester.ac.uk   5537  
+user8     pb01      user8@manchester.ac.uk   733  
+user22    chem01    user22@manchester.ac.uk  59  
 
 The script also sends an email of this info, with more detailed user info
 attached as a zip.
