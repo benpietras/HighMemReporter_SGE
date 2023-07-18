@@ -1,7 +1,7 @@
 #!/bin/bash
 # highmem_reporter.sh
 # B.Pietras, UoM RIT Jan 2023
-# This script checks memory usage of high memory SGE jobs for the last 30 days
+# This script checks memory usage of high memory SGE jobs for the last X days
 
 qacction () {
 	tempo2=$(mktemp)
