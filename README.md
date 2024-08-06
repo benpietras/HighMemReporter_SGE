@@ -46,6 +46,6 @@ A wrapper script to run both scripts, can be used with cron:
 Notes
 
 Hopefully this script is adaptable enough to be of use on other HPC systems.  
-Any questions / suggestions - let me know: ben.pietras@manchester.ac.uk
+Any questions / suggestions - let me know: ~~ben.pietras@manchester.ac.uk~~ bpietras@liverpool.ac.uk
 
 Cheers!
